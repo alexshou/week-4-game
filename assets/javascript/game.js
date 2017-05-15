@@ -44,7 +44,7 @@
    					wins += 1;
    					alert("You win!");
    					gameStart();
-   					$("#wins").text("wins: " + wins);
+   					$("#wins").text("wins " + wins);
    					totalScore = 0;
    				}
    			if(totalScore > randomGoal)
@@ -52,7 +52,7 @@
    					loses += 1;
    					alert("You lose!");
    					gameStart();
-   					$("#loses").text("loses: " + loses);
+   					$("#loses").text("loses " + loses);
    					totalScore = 0;
    				}
    			$(".total-score").text(totalScore);
@@ -66,7 +66,7 @@
    					wins += 1;
    					alert("You win!");
    					gameStart();
-   					$("#wins").text("wins: " + wins);
+   					$("#wins").text("wins " + wins);
    					totalScore = 0;
    				}
    			if(totalScore > randomGoal)
@@ -74,7 +74,7 @@
    					loses += 1;
    					alert("You lose!");
    					gameStart();
-   					$("#loses").text("loses: " + loses);
+   					$("#loses").text("loses " + loses);
    					totalScore = 0;
    				}
  			 $(".total-score").text(totalScore);
@@ -87,7 +87,7 @@
    					wins += 1;
    					alert("You win!");
    					gameStart();
-   					$("#wins").text("wins: " + wins);
+   					$("#wins").text("wins " + wins);
    					totalScore = 0;
    				}
    			if(totalScore > randomGoal)
@@ -95,7 +95,7 @@
    					loses += 1;
    					alert("You lose!");
    					gameStart();
-   					$("#loses").text("loses: " + loses);
+   					$("#loses").text("loses " + loses);
    					totalScore = 0;
    				}
    			$(".total-score").text(totalScore);
@@ -108,7 +108,7 @@
    					wins += 1;
    					alert("You win!");
    					gameStart();
-   					$("#wins").text("wins: " + wins);
+   					$("#wins").text("wins " + wins);
    					totalScore = 0;
    				}
    			if(totalScore > randomGoal)
@@ -116,7 +116,7 @@
    					loses += 1;
    					alert("You lose!");
    					gameStart();
-   					$("#loses").text("loses: " + loses);
+   					$("#loses").text("loses " + loses);
    					totalScore = 0;
    				}
 			$(".total-score").text(totalScore);

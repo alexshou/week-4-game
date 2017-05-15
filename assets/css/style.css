@@ -23,19 +23,24 @@ section{
 .Container{
 
 	max-width:700px;
-	margin-top:30px;
-	margin-left:40px;
+	margin-top:20px;
+	margin-left:35px;
 
 }
 
 .target-score{
 	background-color:#2deb90;
+	height:120px;
+	font-size:36px;
 }
 
 .winAndLoss{
 	background-color:#1acfe7;
 	margin-left:10px;
+	height:120px;
+	padding-top:20px;
 }
+
 
 img{
 
@@ -44,12 +49,12 @@ img{
 }
 
 .Crystal{
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-left:20px;
 	margin-bottom:30px;
 }
 button{
-
+	margin-top:0px;
 	margin:2px;
 
 }
@@ -59,18 +64,20 @@ button{
 }
 
 .total-score-title{
-	width:250px;
+	color:#FFFAF0;
+	width:200px;
 	clear:both;
 	background-color:#1a9b8b;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-left:20px;
 }
 
 .total-score{
-	width:250px;
+	color:#FFFAF0;
+	width:200px;
 	height:100px;
 	font-size:36px;
 	background-color:#1a9b8b;
-	margin-top:20px;
+	margin-top:10px;
 	margin-left:20px;
 }
